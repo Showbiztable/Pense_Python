@@ -1,4 +1,4 @@
-'''
+"""
    * Digite o exemplo e teste-o
    * Altere do_twice para que receba dois argumentos, um objeto de função e um valor, e chame a função duas vezes,
      passando o valor como argumento
@@ -6,7 +6,7 @@
    * Use a versão alterada de do_twice para chamar print_twice duas vezes, passando 'spam' como um argumento
    * Defina uma função nova chamada do_four que receba um objeto de função e um valor e chame a função quatro vezes,
      passando o valor como um parâmetro. Deve haver só duas afirmações no corpo desta função, não quatro.
-'''
+"""
 
 
 def do_twice(objeto_funcao, valor):

@@ -1,10 +1,10 @@
-'''
+"""
     Escreva uma função que desenhe uma grade
-    * Adaptei a função para que a grade possa ser desenhada em qualquer tamanho
-'''
+    * Adaptei a função para que a grade possa ser desenhada em qualquer tamanho.
+"""
 
 
-def grade(linha, coluna): # 3 & 2
+def grade(linha, coluna):
     for linhas in range(linha):
         montar_linha(coluna)
         montar_coluna(coluna)
